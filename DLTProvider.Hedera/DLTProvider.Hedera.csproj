@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DLTProviders.Hedera</RootNamespace>
+  </PropertyGroup>
+
+  <!--<ItemGroup>
+    <PackageReference Include="Hashgraph" Version="8.3.0" />
+  </ItemGroup>-->
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Hashgraph-6.0\Hashgraph\src\Hashgraph\Hashgraph.csproj" />
+    <ProjectReference Include="..\dAccounting.Common\dAccounting.Common.csproj" />
+  </ItemGroup>
+
+</Project>
